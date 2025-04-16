@@ -40,7 +40,7 @@ A machine learning-based web application to detect crop diseases from leaf image
 
 ## Dataset
 
-* Source: PlantVillage Dataset
+* Source: PlantVillage Dataset(https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 
 * Details: 54,000+ RGB images, 38 classes (e.g., Apple___Apple_scab, Tomato___healthy).
 
