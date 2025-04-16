@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+mysql-connector-python
+pandas
+matplotlib
+numpy
+pillow
+sqlalchemy
