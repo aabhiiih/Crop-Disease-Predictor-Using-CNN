@@ -19,7 +19,7 @@ class Crop(Base):
     prediction = Column(String(255), nullable=False)
     timestamp = Column(DateTime, default=datetime.datetime.utcnow)
 
-engine = create_engine('mysql+mysqlconnector://root:Heylover*2@localhost/crop_db')
+engine = create_engine('mysql+mysqlconnector://root:YourPassword@localhost/crop_db')
 Base.metadata.create_all(engine)
 
 def add_crop(user_id, image_path, prediction):
